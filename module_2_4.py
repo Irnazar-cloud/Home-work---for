@@ -5,7 +5,7 @@ primes = []
 not_primes = []
 # Цикл для перебора элементов списка numbers и заполнения списков primes и not_primes
 for i in numbers:
-    for j in range(2,i):
+    for j in range(2, i):
         is_prime = i % j > 0
         if i % j == 0:
             break
